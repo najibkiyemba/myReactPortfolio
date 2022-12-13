@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myReactPortfolio/static/css/main.c34694b3.css",
-    "main.js": "/myReactPortfolio/static/js/main.983f140b.js",
+    "main.js": "/myReactPortfolio/static/js/main.725c8940.js",
     "static/media/najibkiyemba.jpg": "/myReactPortfolio/static/media/najibkiyemba.26617551af9d7998703c.jpg",
     "static/media/chessIMG1.jpg": "/myReactPortfolio/static/media/chessIMG1.aca2067cba6960aa29f4.jpg",
     "static/media/gymIMG.jpg": "/myReactPortfolio/static/media/gymIMG.2dab1ec68722d1f72c34.jpg",
@@ -9,10 +9,10 @@
     "static/media/najib20_kiyemba.pdf": "/myReactPortfolio/static/media/najib20_kiyemba.b0812acd71836b3cf2a4.pdf",
     "index.html": "/myReactPortfolio/index.html",
     "main.c34694b3.css.map": "/myReactPortfolio/static/css/main.c34694b3.css.map",
-    "main.983f140b.js.map": "/myReactPortfolio/static/js/main.983f140b.js.map"
+    "main.725c8940.js.map": "/myReactPortfolio/static/js/main.725c8940.js.map"
   },
   "entrypoints": [
     "static/css/main.c34694b3.css",
-    "static/js/main.983f140b.js"
+    "static/js/main.725c8940.js"
   ]
 }
