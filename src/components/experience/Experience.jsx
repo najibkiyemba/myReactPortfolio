@@ -38,7 +38,7 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <MdBuild className="experience__details-icon" />
-              <h4>Commanl-line</h4>
+              <h4>Command-line</h4>
             </article>
             <article className="experience__details">
               <MdBuild className="experience__details-icon" />
