@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/reactportfolio/static/css/main.0ab404af.css",
-    "main.js": "/reactportfolio/static/js/main.13819337.js",
-    "static/media/chessIMG1.jpg": "/reactportfolio/static/media/chessIMG1.aca2067cba6960aa29f4.jpg",
-    "static/media/gymIMG.jpg": "/reactportfolio/static/media/gymIMG.2dab1ec68722d1f72c34.jpg",
-    "static/media/socerIMG.jpg": "/reactportfolio/static/media/socerIMG.154303986189e5130660.jpg",
-    "static/media/Najib_KiyembaResume.DOCX": "/reactportfolio/static/media/Najib_KiyembaResume.a16526e1d1e22950a74a.DOCX",
-    "index.html": "/reactportfolio/index.html",
-    "main.0ab404af.css.map": "/reactportfolio/static/css/main.0ab404af.css.map",
-    "main.13819337.js.map": "/reactportfolio/static/js/main.13819337.js.map"
+    "main.css": "/myReactPortfolio/static/css/main.c34694b3.css",
+    "main.js": "/myReactPortfolio/static/js/main.b5d4eca3.js",
+    "static/media/najibkiyemba.jpg": "/myReactPortfolio/static/media/najibkiyemba.26617551af9d7998703c.jpg",
+    "static/media/chessIMG1.jpg": "/myReactPortfolio/static/media/chessIMG1.aca2067cba6960aa29f4.jpg",
+    "static/media/gymIMG.jpg": "/myReactPortfolio/static/media/gymIMG.2dab1ec68722d1f72c34.jpg",
+    "static/media/socerIMG.jpg": "/myReactPortfolio/static/media/socerIMG.154303986189e5130660.jpg",
+    "static/media/Najib_KiyembaResume.DOCX": "/myReactPortfolio/static/media/Najib_KiyembaResume.b2a4941bf10f7a02ff61.DOCX",
+    "index.html": "/myReactPortfolio/index.html",
+    "main.c34694b3.css.map": "/myReactPortfolio/static/css/main.c34694b3.css.map",
+    "main.b5d4eca3.js.map": "/myReactPortfolio/static/js/main.b5d4eca3.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ab404af.css",
-    "static/js/main.13819337.js"
+    "static/css/main.c34694b3.css",
+    "static/js/main.b5d4eca3.js"
   ]
 }
