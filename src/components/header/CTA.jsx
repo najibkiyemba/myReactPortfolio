@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from '../../assets/Najib_KiyembaResume.DOCX';
+import Resume from '../../assets/najib20_kiyemba.pdf';
 
 const CTA = () => {
   return (

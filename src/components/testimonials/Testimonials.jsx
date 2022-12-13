@@ -18,7 +18,7 @@ const Testimonials = () => {
       link: 'https://www.linkedin.com/in/robert-anderson8',
       name: 'Robert Anderson',
       role: 'Full Stack Instructor | Web and Software Development',
-      test: 'As a developer and a problem solver, I think Najib is a great collaborative partner to have. I met Najib in generation USA program and since then, he has drastically progressed in him understanding of the development process.',
+      test: 'Through the 12 week, 450+ hour program that I taught, Najib continued to display  his hard work and dedication as he juggled the responsibilities of class and his busy schedule outside of the program. Najib demonstrated these attributes through building projects, learning new languages and technologies, helping others, asking questions, being present every day, and persevering through a hectic schedule.',
     },
     {
       id: 2,

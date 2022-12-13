@@ -10,7 +10,7 @@ const Experience = () => {
       <h2>Skills</h2>
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Front-end Development</h3>
+          <h3>My skills</h3>
           <div className="experience__content">
           <article className="experience__details">
               <MdBuild className="experience__details-icon" />
@@ -30,11 +30,11 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <MdBuild className="experience__details-icon" />
-              <h4>Boostrap</h4>
+              <h4>Bootstrap</h4>
             </article>
             <article className="experience__details">
               <MdBuild className="experience__details-icon" />
-              <h4>git/github</h4>
+              <h4>Git/Github</h4>
             </article>
             <article className="experience__details">
               <MdBuild className="experience__details-icon" />
