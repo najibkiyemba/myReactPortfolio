@@ -2,7 +2,7 @@
     width: 58%;
     display: grid;
     grid-template-columns: 30% 58%;
-    gap: 12%;
+    gap: 13%;
 } 
 
 .contact__options {
@@ -13,17 +13,19 @@
 }
 
 .contact__option {
-    background: var(--color-bg-variant);
+    /*background: var(--color-bg-variant);*/
+    background: gray;
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
+    color: white;
 }
 
 .contact__option:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    /*border-color: var(--color-primary-variant);*/
 }
 
 .contact__option-icon {
@@ -34,11 +36,13 @@
 .contact__option a {
     margin-top: 0.7rem;
     display: inline-block;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    color: white;
 }
 
 .contact__option h5 {
-    color: var(--color-light);
+    /*color: var(--color-light);*/
+    color: white;
 }
 
 .contact__option h4 {
@@ -46,7 +50,7 @@
 }
 
 form span {
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 form {
@@ -61,7 +65,9 @@ textarea {
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--color-primary-variant);
+    /*border: 2px solid var(--color-primary-variant);*/
+    border: 2px solid;
+    border-color: lightgray;
     resize: none;
     color: var(--color-white);
 }
@@ -77,4 +83,31 @@ textarea {
     .container.contact__container {
         width: var(--container-width-sm);
     }
+}
+
+form .btn {
+    color: black;
+    background: lightgray;
+    font-size: medium;
+    margin-top: 5%;
+    margin-left: 36%;
+}
+
+#contacth5 {
+    color: white;
+    font-size: 2rem;
+}
+
+#titleId {
+    color: grey;
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-top: 4%;
+    margin-left: 25%;
+}
+
+#contacth {
+    font-weight: bold;
+    font-size: 1rem;
+    font-style: italic;
 }

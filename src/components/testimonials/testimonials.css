@@ -15,12 +15,14 @@
 }
 
 .client__avatar a {
-    font-size: 40px;
+    font-size: 45px;
     aspect-ratio: 1/1;
+    color: black
 }
 
 .testimonial {
-    background: var(--color-bg-variant);
+    /*background: var(--color-bg-variant);*/
+    background: lightslategrey;
     text-align: center;
     padding: 2rem;
     border-radius: 10rem;
@@ -28,8 +30,9 @@
 }
 
 .client__review {
-    color: var(--color-light);
-    font-weight: 300;
+    /*color: var(--color-light);*/
+    font-weight: 400;
+    font-size: 1rem;
     display: block;
     width: 90%;
     margin: 0.8rem auto 0;
@@ -54,3 +57,5 @@
         width: var(--container-width-sm);
     }
 }
+
+

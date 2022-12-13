@@ -31,7 +31,7 @@ header {
     content: '';
     width: 1px;
     height: 2rem;
-    background: var(--color-primary);
+    /*background: var(--color-primary);*/
   }
   
   .scroll__down {
@@ -40,7 +40,9 @@ header {
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    color: lightsteelblue;
+    font-style: italic;
   }
   
   @media screen and (max-width: 1024px){
@@ -63,3 +65,8 @@ header {
       display: none;
     }
   }
+
+.text-light {
+  color: white;
+  font-style: italic;
+}

@@ -34,7 +34,7 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio">
-      <h5>My Hobbies</h5>
+      <h5>These are my hobbies</h5>
       <h2>Hobbies</h2>
 
       <div className="container portfolio__container">

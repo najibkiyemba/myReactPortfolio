@@ -30,8 +30,8 @@ const Testimonials = () => {
   ];
   return (
     <section id="testmonials">
-      <h5>Feedback from my peers</h5>
-      <h2>Testimonials</h2>
+      <h5 style={{fontSize: '1.7rem'}}>Feedback from other folks</h5>
+      <h2 style={{color: 'white'}}>Feedback</h2>
       <Swiper 
         className="container testimonials__container"
         modules={[Pagination]}

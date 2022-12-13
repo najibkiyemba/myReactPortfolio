@@ -6,7 +6,7 @@ import {MdBuild} from 'react-icons/md';
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>These are my tools </h5>
+      <h5>My Development Tools</h5>
       <h2>Skills</h2>
       <div className="container experience__container">
         <div className="experience__frontend">

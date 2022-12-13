@@ -28,19 +28,18 @@ const Contact = () => {
   };
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
-      <h5>
-        I do receive your messages and will respond asap if the valid email is
-        provided :)
+      <h5 id="contacth5">Let's Get In Touch :)</h5>
+      <h5 id="contacth">
+        I receive messages and respond to only valid emails.
       </h5>
-      <h2>Contact Me</h2>
+      <h2 id="titleId">Send your message</h2>
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>najibkiyemba.nk@gmail.com</h5>
-            <a href="najibkiyemba.nk@gmail.com">Send a message</a>
+            <a href="mailto:najibkiyemba.nk@gmail.com">Send a message</a>
           </article>
         </div>
         <form ref={formRef} onSubmit={handleSubmit}>
@@ -65,7 +64,7 @@ const Contact = () => {
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
-          {message && <span>Thanks, I'll reply ASAP :)</span>}
+          {message && <span>I reply with in 1-3 days.</span>}
         </form>
       </div>
     </section>

@@ -1,5 +1,6 @@
 footer {
-    background: var(--color-primary);
+    /*background: var(--color-primary);*/
+    background-color: lightslategray;
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -7,7 +8,8 @@ footer {
 }
 
 footer a {
-    color: var(--color-bg);
+    /*color: var(--color-bg);*/
+    color: lavenderblush;
 }
 
 .footer__logo {
@@ -15,6 +17,7 @@ footer a {
     font-weight: 500;
     margin-bottom: 2rem;
     display: inline-block;
+    color: black
 }
 
 .permalinks {
@@ -23,21 +26,24 @@ footer a {
     justify-content: center;
     gap: 2rem;
     margin: 0 auto 3rem;
+    font-size: 1rem;
 }
 
 .footer__socials {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 4rem;
     margin-bottom: 4rem;
 }
 
 .footer__socials a {
-    background: var(--color-bg);
-    color: var(--color-white);
+    /*background: var(--color-bg);*/
+    background: white;
+    color: black;
+    /*color: var(--color-white);*/
     padding: 0.8rem;
     border-radius: 0.7rem;
-    display: flex;
+    display: flexbox;
     border: 1px solid transparent;
 }
 
@@ -49,6 +55,7 @@ footer a {
 
 .footer__copyright {
     margin-bottom: 4rem;
+    font-size: 1rem;
     color: var(--color-bg);
 }
   

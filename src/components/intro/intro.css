@@ -5,12 +5,15 @@
 }
 
 .about__me {
-    width: 100%;
+    width: 110%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    /*background: linear-gradient(45deg, transparent, var(--color-primary), transparent);*/
+    background-image: url('../../assets/najibkiyemba.jpg');
+    background-size: 100% 80%;
     display: grid;
     place-items: center;
+    background-repeat: no-repeat;
 }
 
 .about__me-image {
@@ -31,7 +34,8 @@
 }
 
 .about__card {
-    background: var(--color-bg-variant);
+    /*background: var(--color-bg-variant);*/
+    background: lightslategrey;
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
@@ -41,13 +45,15 @@
 
 .about__card:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    /*border-color: var(--color-primary-variant);*/
+    border-color: lightslategrey;
     cursor: default;
 }
 
 .about__icon {
-    color: var(--color-primary);
-    font-size: 1.5rem;
+    /*color: var(--color-primary);*/
+    color: white;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -99,4 +105,12 @@
     .about__content p {
         margin: 1.5rem 0;
     }
+}
+
+#abouth5 {
+    font-size: 1.7rem;
+}
+#abouth2 {
+    color: white;
+    font-style: italic;
 }

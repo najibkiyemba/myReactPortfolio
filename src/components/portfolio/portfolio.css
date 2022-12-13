@@ -5,7 +5,8 @@
 }
 
 .portfolio__item {
-    background: var(--color-bg-variant);
+    /*background: var(--color-bg-variant);*/
+    background: lightslategrey;
     padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -54,4 +55,17 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+}
+.btn {
+    border-color: white;
+    color: black;
+    background-color: white;
+}
+
+#portfolio h5 {
+    font-style: italic;
+    font-size: 1.7rem;
+}
+#portfolio h2 {
+    color: white;
 }
