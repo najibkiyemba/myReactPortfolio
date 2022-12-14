@@ -25,7 +25,7 @@ const Testimonials = () => {
       link: 'https://www.linkedin.com/in/lazaroalsina/',
       name: 'Lazaro Alsina',
       role: 'Master Instructor & Digital Curriculum Designer for Software',
-      test: "It was a pleasure collaborating with Najib on different projects in Generation USA program. One of the things that I think is special about him is that he never settles, even after completing the projects he finds other resources to strengthen his knowledge.",
+      test: "I enjoyed my time with Najib; he cares about his work and ensures everything is working and prepared correctly. He will ensure his work and projects will meet his client's and employer's expectations.",
     },
   ];
   return (
