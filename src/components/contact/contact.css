@@ -111,3 +111,16 @@ form .btn {
     font-size: 1rem;
     font-style: italic;
 }
+
+.errorMessage {
+    color: red;
+    display: none;
+}
+
+input:invalid[focused="true"] {
+    border: 1px solid red;
+}
+
+input:invalid[focused="true"] ~ span {
+    display: block;
+}

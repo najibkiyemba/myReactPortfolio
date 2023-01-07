@@ -4,6 +4,8 @@ import { MdOutlineEmail } from 'react-icons/md';
 import './contact.css';
 
 const Contact = () => {
+
+  const [focused, setFocused] = useState(false);
   const [message, setMessage] = useState(false);
   const formRef = useRef();
   const handleSubmit = (e) => {
@@ -26,6 +28,15 @@ const Contact = () => {
 
     e.target.reset();
   };
+
+  const errorMessage = "Your name should not contain any number or special character and should be more than 5 characters.";
+
+  const handleFocus = (e) => {
+    setFocused(true);
+  };
+
+  
+
   return (
     <section id="contact">
       <h5 id="contacth5">Let's Get In Touch :)</h5>
@@ -48,9 +59,12 @@ const Contact = () => {
             placeholder="Your Full Name"
             name="user_name"
             required
+            focused={focused.toString()}
+            onBlur={handleFocus}
           />
+          <span className='errorMessage'>{errorMessage}</span>
           <input
-            type="text"
+            type="email"
             placeholder="Your Email"
             name="user_email"
             required
